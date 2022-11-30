@@ -1,0 +1,174 @@
+@import url("https://fonts.google.com/specimen/Ubuntu?query=ubuntu");
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: #24252A;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #edf0f1;
+}
+
+li,a{
+    font-weight: 500;
+    font-size: 16px;
+    
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    
+    
+}
+
+
+
+.logo{
+    list-style: none;
+    margin-right: auto;
+    
+}
+
+.links li{
+    display: inline-block;
+    padding: 0 20px 0 0;
+    text-decoration: none;
+    position: relative;
+    
+}
+
+.links li a::after{
+    content: '';
+    width: 0;
+    height: 5%;
+    background: #74cfee;
+    position: absolute;
+    left: 0%;
+    bottom: -5px;
+    transition: 0.5s;
+
+}
+
+.links li a:hover::after{
+    width: 75%;
+}
+
+
+
+
+
+
+body{
+    margin:0;
+    
+}
+
+
+
+
+h2,p{
+    color:#edf0f1;
+}
+
+.con{
+    display: inline;
+    
+}
+
+.bod p{
+   
+    font-size: 1.5rem;
+}
+
+table,th,tr,td{
+    border: 3px solid #edf0f1;
+    padding: 7px;
+    
+    
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.bio{
+    height: 180px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.sk1,.sk2{
+    border: solid 2px #edf0f1;
+    display: inline-block;
+    width: 40%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.sk1,.sk2,.ck1{
+    padding:20px;
+    border-radius: 15px;
+}
+
+.ck1{
+    border: solid 2px #edf0f1;
+    display: inline-block;
+    height: 100%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.contact{
+    display: flex;
+    height: 400px;
+    padding: 70px;
+    
+    
+}
+.ckk{
+    font-size: 50px;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    top:40px;
+    left: 150px;
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
